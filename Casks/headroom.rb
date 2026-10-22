@@ -1,6 +1,6 @@
 cask "headroom" do
-  version "1.1"
-  sha256 "19f5695035caf062bc3138d5d932d388c7faa7c54b9d67b20544766a84344f62"
+  version "1.1.1"
+  sha256 "08ac2fbe2c8a207fd8de5f408f95185ec6c7172f437d19a4cf6c0b98d3ea49b9"
 
   url "https://github.com/romanhajas/headroom/releases/download/v#{version}/Headroom.zip"
   name "Headroom"

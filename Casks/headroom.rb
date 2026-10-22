@@ -7,7 +7,7 @@ cask "headroom" do
   desc "Widget and menu bar app showing how much of your Claude plan is left"
   homepage "https://github.com/romanhajas/headroom"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Headroom.app"
 

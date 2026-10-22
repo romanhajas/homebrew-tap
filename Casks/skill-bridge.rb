@@ -4,10 +4,10 @@ cask "skill-bridge" do
 
   url "https://github.com/romanhajas/skill-bridge/releases/download/v#{version}/Skill-Bridge.zip"
   name "Skill Bridge"
-  desc "Keeps the skills in the Claude app in step with the ones you edit for Claude Code"
+  desc "Keeps Claude app skills in step with the ones you edit for Claude Code"
   homepage "https://github.com/romanhajas/skill-bridge"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Skill Bridge.app"
   binary "#{appdir}/Skill Bridge.app/Contents/MacOS/SkillBridge", target: "skill-bridge"
